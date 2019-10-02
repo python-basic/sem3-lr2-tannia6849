@@ -22,6 +22,25 @@
 ### Код Решение задачи на питоне
 
 ```python
-def foo(a,b,c):
-	return 42
+"""
+Мельникова Татьяна 
+ИВТ 2 курс 
+Группа 1.1
+
+Задание: вычисление площади треугольника по формуле Герона
+"""
+
+def geron_sq(a,b,c):
+    p = (a+b+c)/2
+    import math
+    s = math.sqrt((p-a)*(p-b)*(p-c)*p)
+    return s
+
+def main():
+    a = int(input('Введите a: '))
+    b = int(input('Введите b: '))
+    c = int(input('Введите c: '))
+    print(geron_sq(a,b,c))
+
+main()
 ```
