@@ -10,8 +10,7 @@
 ## Мельникова Татьяна
 
 - Word (professional user)
-- TurboC (c++ basic level)
-- Writing code and technical specifications
+- C, pascal, python (basic level)
 
 [Здесь ссылка на портфолио](https://tannia6849.github.io)
 
